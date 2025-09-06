@@ -14,7 +14,7 @@ export const metadata = {
   title: "Rana Zaeem — Full-Stack Developer",
   description:
     "Full-stack developer building scalable, secure, and user-friendly web apps with React, Next.js, Node, and AI integrations.",
-  metadataBase: new URL("https://ranazaeem.me"), // change to your real domain
+  metadataBase: new URL("https://ranazaeem.me"),
   alternates: { canonical: "/" },
   openGraph: {
     title: "Rana Zaeem — Full-Stack Developer",
@@ -42,6 +42,13 @@ export const metadata = {
     creator: "@RanaZaeem0",
   },
   robots: { index: true, follow: true },
+
+  // ✅ Correct favicon setup
+  icons: {
+    icon: "/avatar.svg", // shows in browser tab
+    shortcut: "/avatar.svg", // fallback
+    apple: "/avatar.svg", // iOS home screen
+  },
 };
 
 export default function RootLayout({ children }) {
