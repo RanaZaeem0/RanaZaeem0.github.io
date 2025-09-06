@@ -1,10 +1,12 @@
-// next.config.js
 /** @type {import('next').NextConfig} */
-export default {
+const nextConfig = {
+  reactStrictMode: true,
+
+  // Required for GitHub Pages (static export)
   output: "export",
   images: {
     unoptimized: true,
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
