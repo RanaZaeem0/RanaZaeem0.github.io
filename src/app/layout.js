@@ -14,13 +14,13 @@ export const metadata = {
   title: "Rana Zaeem — Full-Stack Developer",
   description:
     "Full-stack developer building scalable, secure, and user-friendly web apps with React, Next.js, Node, and AI integrations.",
-  metadataBase: new URL("https://ranazaeemcodes.vercel.app/"), // change to your real domain
+  metadataBase: new URL("https://ranazaeem.me"), // change to your real domain
   alternates: { canonical: "/" },
   openGraph: {
     title: "Rana Zaeem — Full-Stack Developer",
     description:
       "Full-stack developer building scalable, secure, and user-friendly web apps.",
-    url: "https://ranazaeemcodes.vercel.app/",
+    url: "https://ranazaeem.me",
     siteName: "Rana Zaeem Portfolio",
     images: [
       {
